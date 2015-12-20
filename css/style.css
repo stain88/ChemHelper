@@ -1,0 +1,116 @@
+.Element {
+  stroke: white;
+  stroke-width: 2;
+}
+
+.Alkali {
+  fill: hsl(225,70%,50%);
+} 
+
+.Nonmetal {
+  fill: green;
+}
+
+.OtherMetal {
+  fill: cyan;
+}
+
+.Noble {
+  fill: orange;
+}
+
+.Alkaline {
+  fill: red;
+}
+
+.Metalloid {
+  fill: purple;
+}
+
+.Halogen {
+  fill: pink;
+}
+
+.Transition {
+  fill: yellow;
+}
+
+.Lanthanoid, .Actinoid {
+  fill: gold;
+}
+
+.hover {
+  outline: 2px solid silver;
+}
+
+text {
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 20px;
+}
+
+#atom {
+  width: 100%;
+}
+
+.electronK {
+  animation: electronKOrbit 3s linear infinite;
+}
+
+@keyframes electronKOrbit {
+  0% { transform: rotate(0deg) translate(70px) rotate(0deg); }
+  100%   { transform: rotate(360deg) translate(70px) rotate(-360deg); }
+}
+
+.electronL {
+  animation: electronLOrbit 5s linear infinite;
+}
+
+@keyframes electronLOrbit {
+  from {transform: rotate(0deg) translate(100px) rotate(0deg);}
+  to {transform: rotate(360deg) translate(100px) rotate(-360deg);}
+}
+
+.electronM {
+  animation: electronMOrbit 7s linear infinite;
+}
+
+@keyframes electronMOrbit {
+  from {transform: rotate(0deg) translate(130px) rotate(0deg);}
+  to {transform: rotate(360deg) translate(130px) rotate(-360deg);}
+}
+
+.electronN {
+  animation: electronNOrbit 9s linear infinite;
+}
+
+@keyframes electronNOrbit {
+  from {transform: rotate(0deg) translate(160px) rotate(0deg);}
+  to {transform: rotate(360deg) translate(160px) rotate(-360deg);}
+}
+
+.electronO {
+  animation: electronOOrbit 11s linear infinite;
+}
+
+@keyframes electronOOrbit {
+  from {transform: rotate(0deg) translate(190px) rotate(0deg);}
+  to {transform: rotate(360deg) translate(190px) rotate(-360deg);}
+}
+
+.electronP {
+  animation: electronPOrbit 13s linear infinite;
+}
+
+@keyframes electronPOrbit {
+  from {transform: rotate(0deg) translate(220px) rotate(0deg);}
+  to {transform: rotate(360deg) translate(220px) rotate(-360deg);}
+}
+
+.electronQ {
+  animation: electronQOrbit 15s linear infinite;
+}
+
+@keyframes electronQOrbit {
+  from {transform: rotate(0deg) translate(250px) rotate(0deg);}
+  to {transform: rotate(360deg) translate(250px) rotate(-360deg);}
+}
